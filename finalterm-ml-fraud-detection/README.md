@@ -30,15 +30,17 @@ Each transaction is described by multiple numerical and categorical features suc
 - Machine Learning classification model (e.g., LightGBM / Logistic Regression)
 - Feedforward Neural Network
 
-The Neural Network model consists of multiple fully connected layers trained to learn non-linear patterns in transaction data
+This project uses a **Feedforward Neural Network** implemented with `MLPClassifier` from **scikit-learn**
 
-**Neural Network Architecture**
-The Neural Network model is built using a feedforward architecture with:
-- Input layer corresponding to the feature size
+**Model Charateristic**
+
+- Architecture: Multi-Layer Perceptron (MLP)
 - Hidden layers with ReLU activation
-- Output layer with sigmoid activation for binary classification
+- Output layer for binary classification
+- Optimizer: **Adam** (default solver in `MLPClassifier`)
+- Loss function: Log-loss (binary cross-entropy)
 
-The model is trained using binary cross-entropy loss and optimized using Adam optimizer
+The Adam optimizer is used implicitly via the `solver='adam'` setting in `MLPClassifier`, which enables efficient gradient-based optimization for non-linear patterns in fraud detection data
 
 **Evaluation Metrics**
 - Accuracy
@@ -48,6 +50,10 @@ The model is trained using binary cross-entropy loss and optimized using Adam op
 - Confusion Matrix
 
 **Repository Structure**
-fraud_transaction.ipynb
-README.md
+- fraud_transaction.ipynb
+- README.md
+
+
+**Name:** Aisha Patricia Sekar Ayu 
+**NIM:** 1103223067
 
