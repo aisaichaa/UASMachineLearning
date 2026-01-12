@@ -90,15 +90,13 @@ Each sub-repository contains:
 - Dataset references and results
 
 
+**Submission Notes**
+- All projects are implemented as end-to-end pipelines
+- Neural Networks are explicitly applied and documented
+- Repositories are structured according to UAS submission guidelines
+
 **Name:** Aisha Patricia Sekar Ayu
 
 
 
 **NIM:** 1103223067
-
-
-
-**Submission Notes**
-- All projects are implemented as end-to-end pipelines
-- Neural Networks are explicitly applied and documented
-- Repositories are structured according to UAS submission guidelines
