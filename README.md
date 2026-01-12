@@ -31,6 +31,8 @@ This project focuses on predicting whether an online transaction is fraudulent u
 - Evaluation using ROC-AUC
 
 **2. Regression Modeling (Tabular Regression)**
+
+
 **Repository:** `finalterm-ml-regression`
 
 
@@ -44,6 +46,8 @@ This project implements an end-to-end regression pipeline to predict a continuou
 - Evaluation using MSE, RMSE, MAE, and R²
 
 **3. Image Classification (Deep Learning – CNN)**
+
+
 **Repository:** `finalterm-dl-image-classification`
 
 
@@ -86,8 +90,13 @@ Each sub-repository contains:
 - Dataset references and results
 
 
-**Name:** Aisha Patricia Sekar Ayu 
+**Name:** Aisha Patricia Sekar Ayu
+
+
+
 **NIM:** 1103223067
+
+
 
 **Submission Notes**
 - All projects are implemented as end-to-end pipelines
