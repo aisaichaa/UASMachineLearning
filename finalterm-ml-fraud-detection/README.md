@@ -28,6 +28,17 @@ Each transaction is described by multiple numerical and categorical features suc
 
 **Models Used**
 - Machine Learning classification model (e.g., LightGBM / Logistic Regression)
+- Feedforward Neural Network
+
+The Neural Network model consists of multiple fully connected layers trained to learn non-linear patterns in transaction data
+
+**Neural Network Architecture**
+The Neural Network model is built using a feedforward architecture with:
+- Input layer corresponding to the feature size
+- Hidden layers with ReLU activation
+- Output layer with sigmoid activation for binary classification
+
+The model is trained using binary cross-entropy loss and optimized using Adam optimizer
 
 **Evaluation Metrics**
 - Accuracy
