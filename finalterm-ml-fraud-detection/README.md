@@ -55,7 +55,6 @@ The Adam optimizer is used implicitly via the `solver='adam'` setting in `MLPCla
 
 
 
-
 **Name:** Aisha Patricia Sekar Ayu 
 
 
